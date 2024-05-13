@@ -20,6 +20,4 @@ public class Customer extends Person {
         this.phoneNumber = phoneNumber;
         this.registrationDate = registrationDate;
     }
-    // Getters and setters
-    // You can generate getters and setters using your IDE or write them manually
 }

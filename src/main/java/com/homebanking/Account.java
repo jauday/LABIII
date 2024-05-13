@@ -13,7 +13,6 @@ public class Account {
     private Customer customer;
     private List<Transaction> transactions;
 
-    // Constructor
     public Account(String accountNumber, String accountType, double balance, Date openingDate, Customer customer) {
         this.accountNumber = accountNumber;
         this.accountType = accountType;
@@ -31,7 +30,6 @@ public class Account {
         transactions.add(new Transaction(new Date(), "Deposit", amount));
     }
 
-    // Withdraw operation
     private void withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount;
